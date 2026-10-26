@@ -10,6 +10,21 @@ g25_diff:: used by test suites
 Currently what is installed is Gaigen 2.5.2 from Daniel Fontijne’s
 SourceForge project: https://sourceforge.net/projects/g25/
 
+== Installation
+
+You can download a tarball from one of the tagged versions, and then
+run the *configure* script. The *configure* script is controlled by
+the settings of some of what are called _precious variables_ (in
+_Autoconf_ terminology). Alternatively, you can use a pre-configured
+flake directly from the GitHub repository. For example,
+
+[source,nix]
+----
+gaigen = {
+  url = "github:chemoelectric-nixos/gaigen-flake/v1.0.0?dir=build%2Fx86_64-linux%2Frelease-26.05";
+};
+----
+
 == References:
 
 . Daniel Fontijne. 2006. “Gaigen 2: a geometric algebra implementation generator.” In _Proceedings of the 5th international conference on Generative programming and component engineering (GPCE ’06)._ Association for Computing Machinery, New York, NY, USA, 141–150. https://doi.org/10.1145/1173706.1173728
