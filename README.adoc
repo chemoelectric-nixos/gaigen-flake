@@ -1,0 +1,20 @@
+= A Nix flake for Gaigen 2.5
+
+Install Gaigen 2.5 on your system. Commands installed are:
+
+g25:: the code generator
+g25_test_generator:: generates a test suite
+g25_copy_resource:: used by test suites
+g25_diff:: used by test suites
+
+Currently what is installed is Gaigen 2.5.2 from Daniel Fontijne’s
+SourceForge project: https://sourceforge.net/projects/g25/
+
+== References:
+
+. Daniel Fontijne. 2006. “Gaigen 2: a geometric algebra implementation generator.” In _Proceedings of the 5th international conference on Generative programming and component engineering (GPCE ’06)._ Association for Computing Machinery, New York, NY, USA, 141–150. https://doi.org/10.1145/1173706.1173728
+ 
+. Leo Dorst, Daniel Fontijne, and Stephen Mann. 2007. _Geometric
+Algebra for Computer Science: An Object-Oriented Approach to
+Geometry._ Morgan Kaufmann Publishers, San Francisco, CA. ISBN:
+978-0-12-369461-4.
